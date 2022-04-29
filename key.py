@@ -36,3 +36,6 @@ def webdown(website):
     f.write(req.text)
     f.close()
 #------end of download page----------------#
+def wificon():
+  import con
+#------------------end all----------------#
