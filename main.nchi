@@ -1,2 +1,4 @@
 bark("welcome to NCHI Lang")
 bark("The first lang built for WIFI and Cell data to help with lua games and websites") 
+#-------Follow is an exsample on how to send a message to a webhook with NCHI-lang-------
+dmessage [webhook] [message]
