@@ -2,7 +2,10 @@ from ply import lex, yacc
 import platform
 import subprocess
 import json
+import re
+from flask import Flask, render_template
 import psutil
+import shutil
 import urllib.request
 import socket
 from discordwebhook import Discord
@@ -38,4 +41,14 @@ def webdown(website):
 #------end of download page----------------#
 def wificon():
   import con
-#------------------end all----------------#
+def NCHIhelp():
+  bark("NCHI is made with python, C++, C, and HTML/JS you are currently in a python shell so you can still run python scripts in a .NCHI file")
+  #-----------end of help------------------#
+def pcinfo():
+  bark("WAITING ON OS")
+#-----------------------------------------#
+#-----------------------------------------#
+#-----------  END OF TOKEN  --------------#
+#-----------------------------------------#
+#-----------------------------------------#
+
