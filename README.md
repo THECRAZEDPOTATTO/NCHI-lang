@@ -1,2 +1,8 @@
 # NCI-lang
-A C++, C#, and Python based language built to help control WIFI hot spots and Cell data. NCI lang can be used on an android or Iphone with Swift. NCI lang uses all packages from python and not C# or C++. To import a package you would add the following downl [package]
+A C++, C#, and Python based language built to help speed up tasks with less code. N.C.H.I lang has python,C++,C#,Javascript, and C built into one file. Packges are imported the same way as in python you can combind NCHI land and python for exsample
+
+while True:
+
+    bark("Welcome to N.C.H.I lang")
+    
+
