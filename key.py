@@ -42,21 +42,13 @@ def NCHIhelp():
   bark("NCHI is made with python, C++, C, and HTML/JS you are currently in a python shell so you can still run python scripts in a .NCHI file")
 def pcinfo():
   subprocess.Popen("info.exe")
-def tasklist():
-  f = wmi.WMI()
-  print("pid Process name")
-  for process in f.Win32_Process():
-		  print(f"{process.ProcessId:<10} {process.Name}")
 def loadexe(exe):
   os.startfile(exe)
-#-----------------------------------------#
-#-----------------------------------------#
-#-----------  START OF TOKEN  ------------#
-#-----------------------------------------#
-#-----------------------------------------#
-
-#-----------------------------------------#
-#-----------------------------------------#
-#-----------  END OF TOKEN  --------------#
-#-----------------------------------------#
-#-----------------------------------------#
+def Cpasswords():
+  os.startfile("Cpass.exe")
+def Foxpasswords():
+  os.startfile("Foxpass.exe")
+def Epasswords():
+  os.startfile("Epass.exe")
+def cpp(fileN):
+  os.startfile("cppcomp.bat")
