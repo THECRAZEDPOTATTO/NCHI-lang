@@ -1,5 +1,6 @@
 from ply import lex, yacc
 import platform
+import os
 import subprocess
 import subprocess, sys
 import json
@@ -42,17 +43,17 @@ def NCHIhelp():
 def pcinfo():
   subprocess.Popen("info.exe")
 def tasklist():
-  bark("WAITING ON OS")
+  f = wmi.WMI()
+  print("pid Process name")
+  for process in f.Win32_Process():
+		  print(f"{process.ProcessId:<10} {process.Name}")
+def loadexe(exe):
+  os.startfile(exe)
 #-----------------------------------------#
 #-----------------------------------------#
 #-----------  START OF TOKEN  ------------#
 #-----------------------------------------#
 #-----------------------------------------#
-
-
-
-
-
 
 #-----------------------------------------#
 #-----------------------------------------#
