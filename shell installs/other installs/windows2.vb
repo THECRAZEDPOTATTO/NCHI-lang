@@ -1,5 +1,5 @@
-Dim remoteUri As String = "http://belajar123.com/materi.zip"
-Dim fileName As String = "materi.zip"
+Dim remoteUri As String = "file"
+Dim fileName As String = "file"
 Dim password As String = "..."
 Dim username As String = "..."
 
