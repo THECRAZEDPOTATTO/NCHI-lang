@@ -60,8 +60,10 @@ def hotch():
   os.startfile("cpuheat.exe")
 def html(fileN):
   os.startfile("htmlcomp.bat")
-def RQtext():
-  os.startfile("RQtxt.bat")
+def mdtext():
+  os.startfile("mdtxt.ps1")
+def lazyload():
+  os.system("py -m pip install -r requirements.txt")
 #-----------------------------------------#
 #-----------------------------------------#
 #-----------  START OF TOKEN  ------------#
