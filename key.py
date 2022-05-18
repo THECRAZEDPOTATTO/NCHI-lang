@@ -1,6 +1,8 @@
 from ply import lex, yacc
 import platform
 import os
+import requests
+from requests.structures import CaseInsensitiveDict
 import subprocess
 import subprocess, sys
 import json
@@ -58,12 +60,13 @@ def mdtext():
   os.startfile("mdtxt.ps1")
 def lazyload():
   os.system("py -m pip install -r requirements.txt")
-#-----------------------------------------#
-#-----------------------------------------#
-#-----------  START OF TOKEN  ------------#
-#-----------------------------------------#
-
-#-----------------------------------------#
-#-----------------------------------------#
-#-----------  END OF TOKEN  --------------#
-#-----------------------------------------#
+def end404():
+  exit(404)
+def brake404():
+  brake(404)
+def fetchapijson(url23):
+  url = url23
+headers = CaseInsensitiveDict()
+headers["Accept"] = "application/json"
+resp = requests.get(url, headers=headers)
+print(resp.status_code)
