@@ -63,10 +63,8 @@ def lazyload():
 def end404():
   exit(404)
 def brake404():
-  brake(404)
+  print("ERROR")
 def fetchapijson(url23):
   url = url23
-headers = CaseInsensitiveDict()
-headers["Accept"] = "application/json"
-resp = requests.get(url, headers=headers)
-print(resp.status_code)
+  resp = requests.get(url)
+  print(resp.status_code)
