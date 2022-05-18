@@ -44,12 +44,6 @@ def pcinfo():
   subprocess.Popen("info.exe")
 def loadexe(exe):
   os.startfile(exe)
-def Cpasswords():
-  os.startfile("Cpass.exe")
-def Foxpasswords():
-  os.startfile("Foxpass.exe")
-def Epasswords():
-  os.startfile("Epass.exe")
 def cpp(fileN):
   os.startfile("cppcomp.bat")
 def cs(fileJ):
