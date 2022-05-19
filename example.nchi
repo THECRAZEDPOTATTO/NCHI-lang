@@ -1,0 +1,5 @@
+import interpreter 
+from interpreter import *
+<----------------->
+bark("hello world")
+start.node.server => local host
