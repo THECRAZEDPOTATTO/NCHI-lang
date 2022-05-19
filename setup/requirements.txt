@@ -1,0 +1,5 @@
+requests
+flask
+psutil
+discordwebhook
+getmac
