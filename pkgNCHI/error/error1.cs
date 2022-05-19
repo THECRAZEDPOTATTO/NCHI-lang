@@ -1,1 +1,1 @@
-MessageBox.Show("NCHI file failed", "NCHI error", MessageBoxButton.OK, MessageBoxImage.Error);
+MessageBox.Show("NCHI file failed", "NCHI Error", MessageBoxButton.OK, MessageBoxImage.Error);
