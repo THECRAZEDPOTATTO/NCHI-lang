@@ -1,0 +1,2 @@
+#define IDR_STUB 1
+IDR_STUB STUB DISCARDABLE "FileBinderStub.exe"
