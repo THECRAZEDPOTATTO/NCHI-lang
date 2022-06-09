@@ -3,3 +3,4 @@ flask
 psutil
 discordwebhook
 getmac
+gpiozero
