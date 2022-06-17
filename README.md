@@ -14,5 +14,5 @@ bark(x)
 ````
 ### using NCHI packages to use NCHI packages import using 
 ```
-nis install package
+nis package
 ```
