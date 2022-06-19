@@ -1,0 +1,8 @@
+[PYTHON]
+import requests
+import time
+[/PYTHON]
+fetch nchi.Nhelp
+handle help
+if cmd == '--help'
+read nchi.Nhelp
