@@ -1,0 +1,22 @@
+def grab.cookie{
+cookie = chrome.cookie
+cookieD = Dbrowser.cookie
+fetch cookie all^
+to cookie
+print cookie
+save cookie @local
+float.store --to
+fetched cookies handle
+[CSHARP]
+using System;
+MessageBox.Show(cookie fetched, COOKIE ALERT!);  
+[/CSHARP]
+if CS box=>X:
+  run.false:fail
+end 
+botlocal = [support.long]
+using .net
+using intern
+using cookies
+fetch to beta
+}
